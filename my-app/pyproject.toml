@@ -1,0 +1,9 @@
+[project]
+name = "my-app"
+version = "0.1.0"
+description = "Minimal customer service agent with LangGraph"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain-openai>=0.3.0",
+]
